@@ -6,5 +6,5 @@
 
 # CLI
 ```sh
-find ./src/* -type f ! -name "*.ts" ! -name "*.tsx" -exec cp --parents {} ./dist \
+sudo find ./src -type f ! -name "*.ts" ! -name "*.tsx" -exec cp -r --parents {} ./dist \;
 ```
